@@ -4,7 +4,7 @@ const Card = ({
   },
 }) => {
   return (
-    <div className="reciper border rounded-xl bg-slate-300 shadow-md p-5 w-64 h-80 mt-10 ">
+    <div className="reciper border rounded-xl bg-slate-300 shadow-md p-5 w-72 h-80 m-6 ">
       <h3 className=" capitalize  pb-4 font-bold ">{label}</h3>
 
       <div className=" flex flex-row gap-5 justify-center">

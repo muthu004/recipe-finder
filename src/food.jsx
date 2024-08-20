@@ -19,7 +19,7 @@ function Food() {
 
   return (
     <div>
-      <div className="flex flex-row justify-center items-center gap-10 mt-20  ">
+      <div className="flex flex-row justify-center items-center gap-10 mt-20 mb-10  ">
         <input
           type="text"
           placeholder="Enter Ingredient"
@@ -35,7 +35,7 @@ function Food() {
         </button>
       </div>
 
-      <div className="container flex flex-row gap-4  flex-wrap justify-center">
+      <div className="container flex flex-row gap-4  flex-wrap justify-center mb-10">
         {recipes.map((reciper, index) => (
           <Card key={index} reciper={reciper} />
         ))}
